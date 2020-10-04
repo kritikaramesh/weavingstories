@@ -1,0 +1,51 @@
+body {
+  background-color: #e5e5e5;
+  color: #2d4059;
+  font-size: 1rem;
+  text-align: center;
+  padding: 7% 20%;
+  font-family: 'Acme', sans-serif;
+}
+
+div {
+  background-color: #ea5455;
+  border: dashed 5px #2d4059;
+  border-radius: 8px;
+  height: 300px;
+  text-align: center;
+  padding: 12% 39%;
+}
+
+button {
+  border: none;
+  border-radius: 10px;
+  width: 12%;
+  background-color: #ea5455;
+  color: #decdc3;
+  margin: 16px;
+}
+
+button:hover {
+  background-color: #decdc3;
+  color: #ea5455;
+}
+
+a{
+  color: #ea5455;
+}
+
+a:hover{
+  color: #decdc3
+}
+
+/* Mobile-Website */
+@media(max-width: 970px) {
+  body {
+    font-size: 12px;
+  }
+
+  button {
+    width: auto;
+    font-size: 10px;
+  }
+}
